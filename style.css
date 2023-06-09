@@ -44,12 +44,18 @@ body {
   margin: 0 auto;
   max-width: 1170px;
 }
+@media screen and (max-width: 768px) {
+.section-center {
+  display: block;
+  text-align: center;
+}
+.about-photo img {
+  width: 100%;
+}
+}
 .btn-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  border-radius: 10px;
-  
- 
 }
 .btn {
   text-transform: capitalize;

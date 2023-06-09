@@ -11,6 +11,7 @@ btnTabs.forEach(tab => {
     })
     btnTabs.forEach(tab => {
       tab.classList.remove('active')
+      e.target.classList.add('active');
     })
     const element = document.getElementById(activeTabId);
     element.classList.add('active');
