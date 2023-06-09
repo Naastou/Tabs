@@ -1,0 +1,91 @@
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family:sans-serif;
+  background: #e8f2d7a9;
+  color: gray;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+.section {
+  padding: 5rem 0;
+}
+.title  {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.title h2 {
+  text-transform: capitalize;
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  
+}
+.title p {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+
+.about-photo img {
+  margin-bottom: 2rem;
+  border-radius:20px;
+  object-fit: cover;
+  height: 20rem;
+}
+.section-center {
+  display: flex;
+  gap: 2rem;
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+.btn-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-radius: 10px;
+  
+ 
+}
+.btn {
+  text-transform: capitalize;
+  background: #C1EA9F;
+  color:black;
+  padding: 1rem;
+  letter-spacing:0.5rem;
+  font-size: 1.2rem;
+  border: transparent;
+  cursor: pointer;
+  transition: all 0.3s linear; 
+}
+.btn:hover:not(.active ){
+  color:white;
+  background: #41A00D;
+}
+.about-container {
+  border-radius: 20px;
+  background: white;
+}
+.about-text {
+  padding: 2rem 1.5rem;
+  text-align: justify;
+  border-radius: 20px;
+}
+.about-text h4 {
+  text-transform: capitalize;
+}
+.text {
+  display: none;
+}
+.text.active {
+  display: block;
+}
+.btn.active {
+  background: white;
+}
+
+
